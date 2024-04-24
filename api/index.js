@@ -6,7 +6,7 @@ app.use(express.json());
 
 //text-only route
 const text_route = require('./routes/text-route')
-app.use('/text', text_route);
+app.use('/generate', text_route);
 
 
 //running server
